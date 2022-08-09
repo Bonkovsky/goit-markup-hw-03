@@ -100,7 +100,6 @@ body {
 
 .site-logo {
   margin-right: 93px;
-  padding-left: 215px;
 }
 .contact-list {
   list-style: none;
@@ -108,7 +107,6 @@ body {
 }
 
 .site-header .container,
-.site-nav,
 .site-list,
 .contact-header,
 .contact,
@@ -116,6 +114,10 @@ body {
   align-items: center;
   display: flex;
   margin: 0 auto;
+}
+.site-nav {
+  align-items: center;
+  display: flex;
 }
 
 /*
@@ -140,8 +142,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .site-link:hover,
@@ -170,6 +170,12 @@ body {
 
 .contact-link {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
 }
 .contact-link-tel {
   font-weight: 500;
@@ -177,8 +183,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 /* -----------------------------HERO------------------------ */
@@ -186,6 +190,8 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -198,8 +204,6 @@ body {
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
   color: #ffffff;
 }
 
@@ -230,6 +234,8 @@ body {
 /* ------------------------------ABOUT------------------------------- */
 .about {
   background-color: #f5f5f5;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .about-list {
   list-style: none;
@@ -262,6 +268,8 @@ body {
 }
 .about-img {
   margin: 94px 215px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .about-img-item {
   width: 370px;
@@ -269,7 +277,6 @@ body {
   left: 215px;
   top: 1058px;
   background-color: #f5f5f5;
-  padding-left: 30px;
   margin: 0 auto;
 }
 .about-img-item:first-child {
@@ -287,20 +294,22 @@ body {
   list-style: none;
   display: flex;
   margin: 0 auto;
+  gap: 30;
 }
 /* ---------------------------------------TEAM--------------------------- */
+.team {
+  margin-top: 94px;
+  padding-bottom: 94px;
+}
 .team-list {
   list-style: none;
   display: flex;
+  gap: 30px;
 }
 .team-list-item {
   background-color: #f5f4fa;
-  padding-left: 30px;
-  margin: 0 auto;
 }
-.team-list-item :first-child {
-  padding-left: 0;
-}
+
 .team-title {
   font-size: 36px;
   line-height: 1.17;
@@ -327,6 +336,10 @@ body {
   margin-bottom: 30px;
   text-align: center;
 }
+.name-position {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /* -------------------------------FOOTER--------------------------- */
 .footer {
@@ -338,7 +351,6 @@ body {
 .footer-logo {
   text-decoration: none;
   margin-top: 60px;
-  padding-left: 215px;
 }
 .footer-logo :hover,
 .footer-logo :focus {
@@ -361,7 +373,6 @@ body {
   color: #ffffff;
 }
 .footer-contact {
-  margin-left: 215px;
 }
 .footer-adress {
   font-style: normal;
@@ -391,6 +402,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ---------------------------------PORTFOLIO----------------------------------- */
+.hero-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .list {
   list-style: none;
 }
@@ -402,6 +417,7 @@ body {
   gap: 8px;
   cursor: pointer;
   margin: 0 auto;
+  padding: 6px 22px;
 }
 .buttons-item-active {
   font-family: "Roboto";
@@ -437,15 +453,16 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-top: 20px;
-  padding-bottom: 4px;
-  padding-left: 24px;
 }
 .projects-item-after-title {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-left: 24px;
+}
+.descripton {
+  padding-top: 20px;
   padding-bottom: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
