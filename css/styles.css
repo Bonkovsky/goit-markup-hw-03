@@ -240,8 +240,6 @@ body {
 .about-list {
   list-style: none;
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 118px;
   margin-right: auto;
   margin-left: auto;
   max-width: 1175;
@@ -267,9 +265,7 @@ body {
   max-width: 270px;
 }
 .about-img {
-  margin: 94px 215px;
   padding-bottom: 94px;
-  padding-top: 94px;
 }
 .about-img-item {
   width: 370px;
@@ -298,7 +294,7 @@ body {
 }
 /* ---------------------------------------TEAM--------------------------- */
 .team {
-  margin-top: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .team-list {
@@ -324,7 +320,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 30px;
   text-align: center;
 }
 .team-list-position {
@@ -333,7 +328,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
-  margin-bottom: 30px;
   text-align: center;
 }
 .name-position {
@@ -344,13 +338,14 @@ body {
 /* -------------------------------FOOTER--------------------------- */
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-contact-list {
   list-style: none;
 }
 .footer-logo {
   text-decoration: none;
-  margin-top: 60px;
 }
 .footer-logo :hover,
 .footer-logo :focus {
@@ -373,6 +368,7 @@ body {
   color: #ffffff;
 }
 .footer-contact {
+  margin-top: 20px;
 }
 .footer-adress {
   font-style: normal;
@@ -417,7 +413,6 @@ body {
   gap: 8px;
   cursor: pointer;
   margin: 0 auto;
-  padding: 6px 22px;
 }
 .buttons-item-active {
   font-family: "Roboto";
@@ -426,6 +421,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  background-color: #2196f3;
   color: #ffffff;
 }
 .buttons-item {
@@ -440,6 +436,9 @@ body {
 .buttons-list :hover,
 .buttons-list :focus {
   color: #2196f3;
+}
+.projects-item {
+  gap: 30px;
 }
 .projects-list {
   display: flex;
@@ -462,7 +461,7 @@ body {
 }
 .descripton {
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
 }
