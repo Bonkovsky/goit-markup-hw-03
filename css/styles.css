@@ -82,6 +82,7 @@ body {
   padding-bottom: 25px;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px #ececec;
 }
 
 .site-logo {
@@ -246,9 +247,6 @@ body {
 }
 .about-item {
   width: 270px;
-  height: 74px;
-  left: 815px;
-  top: 774px;
   background-color: #f5f5f5;
   margin-right: 30px;
 }
@@ -271,12 +269,7 @@ body {
   padding-bottom: 94px;
 }
 .about-img-item {
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1058px;
   background-color: #f5f5f5;
-  margin: 0 auto;
 }
 .about-img-item:first-child {
   padding-left: 0;
@@ -293,7 +286,7 @@ body {
   list-style: none;
   display: flex;
   margin: 0 auto;
-  gap: 30;
+  gap: 30px;
 }
 /* ---------------------------------------TEAM--------------------------- */
 .team {
@@ -374,7 +367,7 @@ body {
   margin-top: 20px;
 }
 .footer-contact-item {
-  margin-bottom: 9px;
+  margin-bottom: 0 auto;
 }
 .footer-adress {
   font-style: normal;
@@ -422,6 +415,10 @@ body {
   cursor: pointer;
   margin: 0 auto;
   margin-bottom: 50px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 .buttons-item-active {
   font-family: "Roboto";
@@ -452,7 +449,7 @@ body {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
+  gap: 30px;
   margin-top: 34px;
   margin-bottom: 94px;
 }
@@ -473,5 +470,7 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  border: 1px #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
