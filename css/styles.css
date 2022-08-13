@@ -366,8 +366,8 @@ body {
 .footer-contact {
   margin-top: 20px;
 }
-.footer-contact-item {
-  margin-bottom: 0 auto;
+.footer-contact-item-mail {
+  margin-bottom: 9px;
 }
 .footer-adress {
   font-style: normal;
@@ -409,16 +409,11 @@ body {
 .buttons-list {
   display: flex;
   justify-content: center;
-  max-width: 575px;
   flex-wrap: wrap;
   gap: 8px;
   cursor: pointer;
   margin: 0 auto;
   margin-bottom: 50px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 22px;
-  padding-left: 22px;
 }
 .buttons-item-active {
   font-family: "Roboto";
@@ -429,6 +424,7 @@ body {
   letter-spacing: 0.03em;
   background-color: #2196f3;
   color: #ffffff;
+  padding: 6px 22px;
 }
 .buttons-item {
   font-family: "Roboto";
@@ -438,6 +434,7 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 6px 22px;
 }
 .buttons-list :hover,
 .buttons-list :focus {
