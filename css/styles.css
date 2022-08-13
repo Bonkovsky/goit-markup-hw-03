@@ -73,7 +73,7 @@ body {
   padding-bottom: 94px;
 }
 
-/* -----------------HEADER---------------- */
+/* ---------------------------------------HEADER-------------------------- */
 
 .site-header {
   display: flex;
@@ -82,7 +82,7 @@ body {
   padding-bottom: 25px;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-logo {
@@ -114,7 +114,6 @@ body {
 .contact-item {
   align-items: center;
   display: flex;
-  margin: 0 auto;
 }
 .site-nav {
   align-items: center;
@@ -162,6 +161,7 @@ body {
 }
 
 .contact-header {
+  margin: 0;
   margin-left: auto;
 }
 
@@ -448,7 +448,6 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 34px;
-  margin-bottom: 94px;
 }
 .projects-item-title {
   font-size: 18px;
