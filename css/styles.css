@@ -98,7 +98,7 @@ body {
 .logo {
   color: var(--accent-color);
 }
-/ .site-logo {
+.site-logo {
   margin-right: 93px;
 }
 .contact-list {
